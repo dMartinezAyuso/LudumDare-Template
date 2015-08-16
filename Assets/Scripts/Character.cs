@@ -103,6 +103,10 @@ public class Character : MonoBehaviour {
 		}		
 	}
 
+	public string CurrentCharacterDirection() {
+		return currentDirection;
+	}
+
 	/*IEnumerator Yawn() {
 		yield return new WaitForSeconds(2);
 		anim.SetBool ("isYawn", true);
